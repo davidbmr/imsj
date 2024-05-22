@@ -43,7 +43,7 @@ export const Test = () => {
 
 		const promiseSoap = async () => {
 			const result = await soapApi(url, soapXML, headers);
-			// console.log(result);
+			console.log(result);
 		};
 
 		promiseSoap();

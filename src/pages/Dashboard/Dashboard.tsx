@@ -6,7 +6,7 @@ import DetailsView from "../../components/DetailsView/DetailsView";
 import { FaSearch } from "react-icons/fa";
 
 const Dashboard: React.FC = () => {
-  const [activeTab, setActiveTab] = useState("myProject");
+  // const [activeTab, setActiveTab] = useState("myProject");
   const [selectedData, setSelectedData] = useState<{ [key: string]: any } | null>(null);
   const [fechaDesde, setFechaDesde] = useState('2024-04-01');
   const [fechaHasta, setFechaHasta] = useState('2024-04-28');
